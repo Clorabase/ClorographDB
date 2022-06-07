@@ -1,6 +1,5 @@
 <p align="center"><img alt="clorographDB" height="300" src="/clorograph.png"></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-1.1-green?style=for-the-badge">
   <img src="https://img.shields.io/github/license/ErrorxCode/ClorographDB?style=for-the-badge">
   <img src="https://img.shields.io/github/stars/ErrorxCode/ClorographDB?style=for-the-badge">
   <img src="https://img.shields.io/github/issues/ErrorxCode/ClorographDB?color=red&style=for-the-badge">
@@ -31,6 +30,7 @@ Recently, The similer database [FloraDB](https://github.com/ErrorxCode/FloraDB) 
 
 
 ## ℹ️ Implementation
+![version](https://jitpack.io/v/ErrorxCode/ClorographDB.svg)
 #### For Gradle
 Add it in your root build.gradle at the end of repositories:
 ```css
@@ -69,7 +69,7 @@ Add the depencdency:
 
 ## 📝 Documentation
 - ~~Javadocs~~ (Not needed)
-- [Database guide](fd)
+- [Database guide](https://github.com/ErrorxCode/ClorographDB/wiki)
 
 Every method name describes what it does, So they don't need javadocs. However, it you want to see the detailed desription, you can hover over the method name (intellij)
 for seeing the javadocs comments.
