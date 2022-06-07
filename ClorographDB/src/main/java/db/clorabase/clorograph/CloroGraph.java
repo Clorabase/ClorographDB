@@ -76,7 +76,7 @@ public class CloroGraph {
      * @param name The name of the tree to open.
      * @return The tree.
      */
-    private <T extends Savable> Tree<T> openTree(String name) {
+    public <T extends Savable> Tree<T> openTree(String name) {
         File file = new File(DB_DIR, name);
         try {
             ObjectInputStream ois = new ObjectInputStream(new FileInputStream(file));
